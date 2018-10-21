@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import XLSX from 'data-validation-xlsx';
+import XLSX from 'xlsx';
 import saveAs from 'file-saver';
-
 
 class App extends Component {
   constructor(props){
